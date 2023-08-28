@@ -6,8 +6,6 @@ vector<string> split_string(string);
 
 // Complete the flatlandSpaceStations function below.
 int flatlandSpaceStations(int n, vector<int> c) {
-
-   int flatlandSpaceStations(int n, vector<int> c) {
     sort(c.begin(), c.end());
     int result = c[0];
     for(int i = 1; i < c.size(); i++){
